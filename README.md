@@ -5,6 +5,16 @@ This project focuses on layout, styling, and responsiveness — no JavaScript.
 
 ---
 
+## Demo / Screenshots
+
+### Desktop View
+![Desktop Screenshot](./screenshot/PC.png)
+
+### Tablet View
+![Tablet Screenshot](./screenshot/Tab.png)
+
+---
+
 ## Features
 
 - Responsive layout with header, sidebar, and video grid  
@@ -39,4 +49,3 @@ This project focuses on layout, styling, and responsiveness — no JavaScript.
 
 I followed the **“HTML & CSS Full Course – Beginner to Pro”** tutorial.  
 [Watch here](https://youtu.be/G3e-cpL7ofc?si=kIH0vv15XxnNtmc8)
-
