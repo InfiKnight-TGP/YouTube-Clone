@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>NOT YouTube.com</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/general.css" />
+  <link rel="stylesheet" href="styles/header.css" />
+  <link rel="stylesheet" href="styles/video.css" />
+  <link rel="stylesheet" href="styles/sidebar.css" />
+  <link rel="stylesheet" href="styles/categories.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <button class="menu-btn">
+        <img src="icons/hamburger-menu.svg" class="menu-icon" />
+      </button>
+      <div class="logo-container">
+        <img src="icons/youtube-premium.svg" class="yt-logo" />
+        <div class="country">IN</div>
+        <div class="tooltip">YouTube Premium Home</div>
+      </div>
+    </div>
+    <div class="mid-section">
+      <input class="searchbar" type="text" placeholder="Search" />
+      <button class="search-btn">
+        <img src="icons/search.svg" class="search-icon" />
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="mic-btn">
+        <img src="icons/voice-search-icon.svg" class="mic-icon" />
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+
+    <div class="right-section">
+      <button class="create-btn">
+        <img src="icons/plus.svg" class="plus-icon" />
+        <p class="create-text">Create</p>
+      </button>
+
+      <div class="notifications-icon-container">
+        <button class="notifications-btn">
+          <img src="icons/notifications.svg" class="notifications-icon" />
+        </button>
+        <div class="notifications-count">5</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <img src="DP/Me.jpg" class="profile-pic" />
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-content">
+      <img src="icons/home.svg" class="sidebar-icon" />
+      <p class="sidebar-text selected-text">Home</p>
+    </div>
+    <div class="sidebar-content">
+      <img src="icons/youtube-shorts.svg" class="sidebar-icon" />
+      <p class="sidebar-text">Shorts</p>
+    </div>
+    <div class="sidebar-content">
+      <img src="icons/subscriptions.svg" class="sidebar-icon" />
+      <p class="sidebar-text">Subscriptions</p>
+    </div>
+    <div class="sidebar-content">
+      <img src="icons/youtube-music.svg" class="sidebar-icon" />
+      <p class="sidebar-text">Youtube Mu...</p>
+    </div>
+    <div class="sidebar-content">
+      <img src="icons/You.svg" class="sidebar-icon" />
+      <p class="sidebar-text">You</p>
+    </div>
+    <div class="sidebar-content">
+      <img src="icons/download.svg" class="sidebar-icon" style="opacity:0.5;" />
+      <p class="sidebar-text">Downloads</p>
+    </div>
+  </nav>
+
+  <main>
+    <nav class="categories-bar">
+      <div class="categories-scroll">
+        <button class="category selected-category">All</button>
+        <button class="category">Music</button>
+        <button class="category">Mixes</button>
+        <button class="category">Live</button>
+        <button class="category">Cricket</button>
+        <button class="category">Gaming</button>
+        <button class="category">News</button>
+        <button class="category">Movies</button>
+        <button class="category">Fashion & Beauty</button>
+        <button class="category">Learning</button>
+        <button class="category">Sports</button>
+        <button class="category">Comedy</button>
+        <button class="category">Podcasts</button>
+        <button class="category">Travel & Events</button>
+        <button class="category">DIY</button>
+        <button class="category">Animation</button>
+        <button class="category">Programming</button>
+        <button class="right-arrow" aria-label="Scroll categories right">
+          <img src="icons/right-arrow.svg" class="right-arrow-icon" />
+        </button>
+      </div>
+    </nav>
+
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Jananayagan.jpg" />
+          <div class="video-time">1:06</div>
+        </div>
+        <div class="vinfo-grid">
+          <div class="cp">
+            <img class="pp" src="DP/KVNProduction.png" />
+          </div>
+
+          <div class="vinfo">
+            <p class="vt">
+
+              The First Roar - Jana Nayagan | Thalapathy Vijay | H Vinoth | Anirudh | Pooja Hegde | KVN
+            </p>
+            <p class="va">KVN PRODUCTIONS</p>
+            <p class="vs">3.6 crore views &#183; 2 months ago</p>
+          </div>
+
+          <button class="more-btn">
+            <img src="icons/more-vert.svg" class="more-icon" />
+          </button>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/GTA VI.jpeg" />
+          <div class="video-time">2:46</div>
+        </div>
+        <div class="vinfo-grid">
+          <div class="cp">
+            <img class="pp" src="DP/Rockstar.jpg" />
+          </div>
+          <div class="vinfo">
+            <p class="vt">Grand Theft Auto VI Trailer 2</p>
+            <p class="va">Rockstar Games</p>
+            <p class="vs">13 crore views &#183; 4 months ago</p>
+          </div>
+          <button class="more-btn">
+            <img src="icons/more-vert.svg" class="more-icon" />
+          </button>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/I am the Danger.jpg" />
+          <div class="video-time">3:33</div>
+        </div>
+        <div class="vinfo-grid">
+          <div class="cp">
+            <img class="pp" src="DP/SunTV.jpg" />
+          </div>
+          <div class="vinfo">
+            <p class="vt">
+
+              I Am The Danger -Lyric Video| Coolie| Superstar Rajinikanth| Nagarjuna| Lokesh| Anirudh|Sun Pictures
+            </p>
+
+            <p class="va">Sun TV</p>
+            <p class="vs">1 crore views &#183; 1 month ago</p>
+          </div>
+          <button class="more-btn">
+            <img src="icons/more-vert.svg" class="more-icon" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="shorts-section">
+      <header class="Shorts">
+        <div class="left-section">
+          <img src="icons/Shorts.svg" class="Shorts-icon" />
+          <p class="Shorts-text">Shorts</p>
+        </div>
+        <div class="right-section">
+          <button class="more-btn">
+            <img src="icons/more-vert.svg" class="more-icon" />
+          </button>
+        </div>
+      </header>
+
+      <div class="shorts-grid">
+        <div class="short-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/How Stitches Work 😯.jpg" />
+          </div>
+          <div class="vinfo-grid">
+            <div class="video-info">
+              <p class="vt">How Stitches Work 😯</p>
+              <p class="vs">24 crore views</p>
+            </div>
+            <button class="more-btn">
+              <img src="icons/more-vert.svg" class="more-icon" />
+            </button>
+          </div>
+        </div>
+
+        <div class="short-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/How Zach King Gets Away With Doing Graffiti.jpg" />
+          </div>
+          <div class="vinfo-grid">
+            <div class="video-info">
+              <p class="vt">How Zach King Gets Away With Doing Graffiti</p>
+              <p class="vs">104 crore views</p>
+            </div>
+            <button class="more-btn">
+              <img src="icons/more-vert.svg" class="more-icon" />
+            </button>
+          </div>
+        </div>
+
+        <div class="short-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/10 Free Steam Games (Overwhelmingly Positive).jpg" />
+          </div>
+          <div class="vinfo-grid">
+            <div class="video-info">
+              <p class="vt">10 Free Steam Games (Overwhelmingly Positive)</p>
+              <p class="vs">10 lakh views</p>
+            </div>
+            <button class="more-btn">
+              <img src="icons/more-vert.svg" class="more-icon" />
+            </button>
+          </div>
+        </div>
+
+        <div class="short-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/Answer The Call, Win $10,000.jpg" />
+          </div>
+          <div class="vinfo-grid">
+            <div class="video-info">
+              <p class="vt">Answer The Call, Win $10,000</p>
+              <p class="vs">8 crore views</p>
+            </div>
+            <button class="more-btn">
+              <img src="icons/more-vert.svg" class="more-icon" />
+            </button>
+          </div>
+        </div>
+
+        <div class="short-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/Simon Shorts.jpg" />
+          </div>
+          <div class="vinfo-grid">
+            <div class="video-info">
+              <p class="vt">No vibe matches Simon's 🕺🏻❤‍🔥 #Coolie ruling in theatres worldwide🌟</p>
+              <p class="vs">2.5 lakh views</p>
+            </div>
+            <button class="more-btn">
+              <img src="icons/more-vert.svg" class="more-icon" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>

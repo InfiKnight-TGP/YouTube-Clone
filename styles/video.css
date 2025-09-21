@@ -1,0 +1,250 @@
+.thumbnail {
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.vt {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  cursor: pointer;
+}
+
+.vinfo-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr auto;
+  column-gap: 8px;
+  align-items: start;
+  cursor: pointer;
+}
+
+.pp {
+  width: 36px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.va,
+.vs {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.va {
+  margin-bottom: 4px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  padding-bottom: 10px;
+}
+
+.more-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.75;
+  transition: opacity 0.15s;
+}
+
+.more-btn {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.more-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.more-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.video-time {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
+
+.shorts-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  padding: 12px 20px;
+  margin-top: 12px;
+  max-width: 100%;
+}
+
+.short-preview {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.short-preview .thumbnail {
+  width: 100%;
+  max-width: 250px;
+  min-width: 160px;
+  height: auto;
+  aspect-ratio: 9/16;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.short-preview .vinfo {
+  margin-top: 8px;
+}
+
+.short-preview .vt {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 4px 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  cursor: pointer;
+}
+
+.short-preview .vs {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin: 0;
+}
+
+.short-preview .vinfo-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: 8px;
+}
+
+.short-preview .video-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.Shorts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.Shorts .left-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Shorts .right-section {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1136px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    padding-bottom: 10px;
+  }
+  
+  .shorts-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 12px 20px;
+    margin-top: 12px;
+  }
+  
+  .short-preview .thumbnail {
+    min-width: 180px;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 1135px) and (min-width: 721px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 14px;
+    row-gap: 36px;
+  }
+  
+  .shorts-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    padding: 12px 18px;
+  }
+  
+  .short-preview .thumbnail {
+    min-width: 160px;
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 720px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 32px;
+    padding: 0 16px;
+  }
+  
+  .shorts-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 12px 16px;
+  }
+  
+  .short-preview .thumbnail {
+    min-width: 140px;
+    max-width: 200px;
+  }
+  
+  .Shorts {
+    padding: 0 16px;
+  }
+}
