@@ -35,13 +35,13 @@ This project focuses on layout, styling, and responsiveness — no JavaScript.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+   git clone https://github.com/InfiKnight-TGP/YouTube-Clone.git
    ```
 2. Navigate into the project folder:
    ```bash
-   cd <repo-name>
+   cd YouTube-Clone
    ```
-3. Open `index.html` in your browser.
+3. Open `youtube.html` in your browser.
 
 ---
 
